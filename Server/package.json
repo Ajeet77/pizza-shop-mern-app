@@ -8,7 +8,7 @@
     "start": "node server.js",
     "build":"npm build && npm i",
     "server": "nodemon server.js",
-    "client": "npm start --prefix Client"
+    "client": "npm start --prefix ./Client"
   },
   "author": "Ajeet",
   "license": "ISC",
